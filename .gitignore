@@ -1,0 +1,40 @@
+# Binaries for programs and plugins.
+*.exe
+*.dll
+*.so
+*.dylib
+*.sh
+
+
+# Test binary, build with `go test -c`.
+*.test
+
+
+# Output of the go coverage tool, specifically when used with LiteIDE.
+*.out
+
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736.
+.glide/
+
+
+# Ignore notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
+# Ignore ML model file. 
+*.sav
+
+
+# Ignore folders.
+dataset
+document
+system
+images
+
+
+# Ignore specific python file.
+__init__.py
+__pycache__
+*/__pycache__/*
